@@ -52,7 +52,7 @@ console.log(`${stew.name}, ${stew.city}, ${stew.age}, ${stew.country},`);
 
 const elon = new Person("Elon", "Bangalore", 30);
 
-console.log(`${elon.name}, ${elon.city}, ${elon.age}, ${elon.country},`);
+console.log(`abd ${elon.name}, ${elon.city}, ${elon.age}, ${elon.country},`);
 
  
 

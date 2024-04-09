@@ -1,5 +1,5 @@
-const employee=`
-{
+const employee=
+`{
 "name":"Aleix Melon",
 "id":"E00245",
 "role":["Dev","DBA"],
@@ -13,8 +13,12 @@ const employee=`
 },
 "referred-by": "E0012"
 }`
+
 const result=JSON.parse(employee);
 console.log(result);
 console.table(result);
 console.log('=====step2======');
-console.log(employee.role[0]);
+console.log(result.role[0]);
+
+const lastElement=result.name.split(" ").pop();
+console.log(lastElement);
