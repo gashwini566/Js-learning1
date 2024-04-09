@@ -14,7 +14,7 @@ console.log('--------------------------------------------------------')
        
  }
  let result=add(100,100,200,349,756);
-console.log(`Additiono of 100,100,200,349,756 is: ${result}`);
+console.log(`Addition of 100,100,200,349,756 is: ${result}`);
 let result2=add("I am ","learning","ES6","features","in depth");
-console.log(`Additiono of i am,learning,ES6,features,in depth is: ${result2}`);
+console.log(`Addition of i am,learning,ES6,features,in depth is: ${result2}`);
  
